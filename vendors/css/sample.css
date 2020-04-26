@@ -1,0 +1,72 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header{
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+.left{
+  float: left;
+  padding: 15px;
+}
+.right{
+  float: right;
+  padding: 15px;
+}
+header ul {
+  color: none;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+  vertical-align: top;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここまでがheader部分の実装 */
+.main-header img {
+  padding-top: 130px;
+}
+.about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* ここから */
+.function {
+  padding-top: 30px;
+  width: 100%;
+  height: 400px;
+  background-color: #C0C0C0;
+}
+.function-images {
+  border: 50px;
+  padding-top: 40px;
+}
+.function-image {
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  position: absolute;
+  background-color: #223a70;
+}
+/* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
